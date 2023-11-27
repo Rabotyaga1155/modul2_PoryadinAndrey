@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:columnCount="3">
+
+    <LinearLayout
+        android:onClick="obs_click"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/firstround">
+
+        </ImageView>
+
+        <TextView
+
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Обсуждения">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="obs_click"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="90dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/secround">
+
+        </ImageView>
+
+        <TextView
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Обсуждения"
+            android:textColor="@color/white"
+            android:textAlignment="textStart">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="izbr_click"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/thirdround">
+
+        </ImageView>
+
+        <TextView
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Избранное">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</androidx.wear.widget.BoxInsetLayout>
