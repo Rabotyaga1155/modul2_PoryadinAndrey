@@ -23,7 +23,7 @@
         </ImageView>
 
         <TextView
-
+            android:fontFamily="sans-serif-condensed"
             android:layout_gravity="center"
             android:layout_marginRight="50dp"
             android:text="@string/emai"
@@ -48,7 +48,7 @@
         </EditText>
 
         <TextView
-
+            android:fontFamily="sans-serif-condensed"
             android:layout_gravity="center"
             android:layout_marginRight="45dp"
             android:text="@string/passs"
@@ -74,6 +74,7 @@
         </EditText>
 
         <Button
+            android:fontFamily="sans-serif-condensed"
             android:onClick="Enter"
             android:layout_width="match_parent"
             android:layout_height="50dp"
