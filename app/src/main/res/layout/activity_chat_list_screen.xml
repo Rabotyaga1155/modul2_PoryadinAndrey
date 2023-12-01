@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Обсуждения"
+            android:text="@string/obsug"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="20dp"
             android:textColor="@color/bluebutcolor"
@@ -32,7 +32,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="30dp"
                 android:layout_gravity="center"
-                android:text="Lucifer"
+                android:text="@string/lucifer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -47,7 +47,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="30dp"
                 android:layout_gravity="center"
-                android:text="The Witcher   "
+                android:text="@string/the_witcher"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -62,7 +62,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="30dp"
                 android:layout_gravity="center"
-                android:text="LOST"
+                android:text="@string/lost"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>
@@ -76,7 +76,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="30dp"
                 android:layout_gravity="center"
-                android:text="The Magicans"
+                android:text="@string/the_magicans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </TextView>

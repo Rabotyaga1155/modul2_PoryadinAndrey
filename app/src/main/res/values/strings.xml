@@ -22,5 +22,20 @@
     <string name="email">Email</string>
     <string name="pass">Password</string>
     <string name="signi">Sign In</string>
+    <string name="log">Войти</string>
+    <string name="youpass">Ваш пароль</string>
+    <string name="passs">Пароль</string>
+    <string name="mailexample">you@example.com</string>
+    <string name="emai">E-mail</string>
+    <string name="nwstri">Новое</string>
+    <string name="witcher">Witcher</string>
+    <string name="jessica_jones">Jessica Jones</string>
+    <string name="magicians">Magicians</string>
+    <string name="obsug">Обсуждения</string>
+    <string name="liked">Избранное</string>
+    <string name="lucifer">Lucifer</string>
+    <string name="the_witcher">The Witcher</string>
+    <string name="lost">LOST</string>
+    <string name="the_magicans">The Magicans</string>
 
 </resources>
